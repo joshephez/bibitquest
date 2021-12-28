@@ -1,16 +1,18 @@
 # bibitquest
 
-A new Flutter project.
+Clock Date display 
 
 ## Getting Started
 
 This project is a starting point for a Flutter application.
+this application use the getX 
 
-A few resources to get you started if this is your first Flutter project:
+I use library like :
+- get: ^4.6.1
+- flutter_analog_clock: ^0.1.1
+- flutter_alarm_clock: ^0.0.2
+- date_time_picker: ^2.1.0
+- flutter_local_notifications: ^9.1.5
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+this application can change the hour time with draging vertically and change the minute 
+with dragging horizontal,
