@@ -1,0 +1,27 @@
+{
+"version": "0.2.0",
+"configurations": [
+    {
+        "name": "[DEV] Flutter Run Debug",
+        "request": "launch",
+        "type": "dart",
+        "args": [
+            "--dart-define=CURRENT_FLAVOR=dev",
+            "--no-sound-null-safety"
+            // "--flavor",
+            // "dev"
+        ]
+    },
+    {
+        "name": "[PROD] Flutter Run Debug",
+        "request": "launch",
+        "type": "dart",
+        "args": [
+            "--dart-define=CURRENT_FLAVOR=prod",
+            "--no-sound-null-safety"
+            // "--flavor",
+            // "prod"
+        ]
+    },
+]
+}
